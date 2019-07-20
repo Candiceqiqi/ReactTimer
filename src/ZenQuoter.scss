@@ -1,4 +1,4 @@
-@import "compass/css3";
+//@import "compass/css3";
 
 // hay frand, play with these vars.
 $loader-style: double; 
@@ -13,6 +13,11 @@ $body-bg: #e74c3c;
 
 body {
   background-color: $body-bg;
+}
+.Quoter{
+
+  display: inline-block;
+  margin: auto;
 }
 .loader {
   width: 1em;
