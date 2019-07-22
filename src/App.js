@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Timer from './timer';
 import ZenQuoter from './ZenQuoter';
+import CardTable from './cardTable';
 
 function App() {
   return (
-    <div>
-     <Timer />
-     <ZenQuoter />
+    <div className="App">
+     <CardTable />
     </div>
   );
 }
